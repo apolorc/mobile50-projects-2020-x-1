@@ -1,0 +1,102 @@
+import { StyleSheet } from 'react-native';
+import Constants from 'expo-constants';
+
+export default StyleSheet.create({
+    container: {
+      flex: 1,
+      //flexDirection: 'row',
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      //justifyContent: 'center',
+      marginTop: Constants.statusBarHeight + 25,
+    },
+    statusLine:{
+      fontSize: 46,
+      margin: 2,
+      fontWeight: 'bold',
+      textAlign: 'center',
+      color: '#34495e',
+    },
+    bgTimer:{
+      backgroundColor: '#34495e',
+      //flex: 2,
+      margin: 10,
+      width: '100%',
+      //height: 20,
+    },
+    timer:{
+      fontSize: 60,
+      margin: 20,
+      fontWeight: 'bold',
+      textAlign: 'center',
+      color: '#add8e6',
+    },
+    lineButton:{
+      flexDirection: 'row',
+      //width: '100%',
+      //alignItems: 'center',
+      justifyContent: 'space-between',
+      //marginLeft: 30,
+      //marginRight: 30,
+    },
+    appButton:{
+      backgroundColor: '#00aeef',
+      //color:'#34495e',
+      borderWidth: 0,
+      //borderRadius: 15,
+      width: '85%', 
+      //justifyContent: 'center',
+      margin: 10,
+    },
+    titleButton:{
+      fontSize: 20,
+      margin: 2,
+      //fontWeight: 'bold',
+      textAlign: 'center',
+      //color: '#add8e6',
+    },
+    inputContainer:{
+      marginTop: 20,
+      marginBottom: 30,
+    },
+    inputTitle:{
+      fontSize: 22,
+      //margin: 2,
+      //fontWeight: 'bold',
+      textAlign: 'center',
+      color: '#34495e',
+    },
+    inputTime:{
+      flexDirection: 'row',
+      marginTop:10,
+      marginLeft:25,
+      alignItems: 'center',
+      //justifyContent: 'space-between',
+      width: '60%',
+      justifyContent: 'space-around',
+      textAlign: 'center',
+    },
+    editTimer:{
+      fontSize: 19,
+      margin: 2,
+      textAlign: 'center',
+      color: '#34495e',
+      paddingRight: 25,
+      //paddingLeft: 5,
+    },
+    editButton:{
+      backgroundColor: '#00aeef',
+      borderWidth: 0,
+      borderRadius: 15,
+      width: "60%", 
+      //height: "20%",
+      //margin: 5,
+    },
+    editTitle:{
+      fontSize: 22,
+      //margin: 2,
+      fontWeight: 'bold',
+      textAlign: 'center',
+    },
+  
+  });
